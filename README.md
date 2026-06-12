@@ -160,11 +160,11 @@ Automated ETL workflow
 🔗 Project Links
 GitHub Repository
 
-Telco Customer Churn ML & Data Analyst Project
+https://github.com/Anmol7860-bit/Telco-Customer-Churn-ML-DATA-ANALYST-project?utm_source=chatgpt.com
 
 Tableau Dashboard
 
-Interactive Tableau Dashboard
+https://public.tableau.com/views/mlsql/Dashboard1?%3Alanguage=en-GB&%3Asid=&%3Aredirect=auth&%3Adisplay_count=n&%3Aorigin=viz_share_link&utm_source=chatgpt.com
 
 👨‍💻 Author
 
