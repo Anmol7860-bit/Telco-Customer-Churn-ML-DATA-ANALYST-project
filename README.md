@@ -21,6 +21,7 @@ Identify key factors influencing churn.
 Generate business insights using SQL.
 Create an interactive Tableau dashboard for stakeholders.
 Recommend retention strategies based on data findings.
+
 📂 Dataset
 
 Dataset: Telco Customer Churn Dataset
@@ -49,6 +50,7 @@ Total Charges
 Tenure
 Target Variable
 Churn (Yes/No)
+
 🛠 Technologies Used
 Programming
 Python
@@ -65,6 +67,7 @@ Tableau Public
 Development Environment
 Jupyter Notebook
 VS Code
+
 📈 Machine Learning Workflow
 Data Preprocessing
 Missing value handling
@@ -81,7 +84,7 @@ Precision
 Recall
 F1 Score
 Confusion Matrix
-ROC-AUC Score
+
 🗄 SQL Analysis
 
 The cleaned dataset was imported into PostgreSQL to answer business questions such as:
@@ -92,12 +95,7 @@ Does tenure affect churn behavior?
 Which payment methods have the highest churn rate?
 How do monthly charges impact churn?
 Which customer segments are most likely to leave?
-Example SQL Analysis
-SELECT Contract,
-       COUNT(*) AS customers,
-       SUM(CASE WHEN Churn='Yes' THEN 1 ELSE 0 END) AS churned_customers
-FROM telecom_churn
-GROUP BY Contract;
+
 📊 Tableau Dashboard
 
 Interactive dashboard created using Tableau Public.
@@ -110,9 +108,9 @@ Payment Method Analysis
 Customer Tenure Insights
 Monthly Charges Distribution
 Customer Segmentation
-Tableau Dashboard
 
-View Interactive Tableau Dashboard
+Tableau Dashboard
+https://public.tableau.com/views/mlsql/Dashboard1?%3Alanguage=en-GB&%3Asid=&%3Aredirect=auth&%3Adisplay_count=n&%3Aorigin=viz_share_link&utm_source=chatgpt.com
 
 🔍 Key Insights
 Churn Drivers
@@ -132,6 +130,7 @@ Create personalized offers for high-risk customers identified by the ML model.
 Revenue Growth
 Promote premium services to long-tenure customers.
 Develop loyalty programs for customers with high lifetime value.
+
 📁 Repository Structure
 ├── data/
 │   └── Telco_Customer_Churn.csv
@@ -150,12 +149,14 @@ Develop loyalty programs for customers with high lifetime value.
 │
 ├── README.md
 └── requirements.txt
+
 📌 Future Improvements
 Hyperparameter tuning using GridSearchCV
 XGBoost implementation
 Model deployment using Flask/FastAPI
 Real-time churn prediction pipeline
 Automated ETL workflow
+
 🔗 Project Links
 GitHub Repository
 
@@ -167,7 +168,7 @@ Interactive Tableau Dashboard
 
 👨‍💻 Author
 
-Anmol Bhandare
+Anmol Bhadare
 
 Data Analytics | Machine Learning | SQL | Tableau | Python
 
